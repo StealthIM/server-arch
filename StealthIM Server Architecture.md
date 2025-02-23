@@ -22,8 +22,8 @@
 | server-user_system      | 用户管理系统   | S   |     |      | ID🟧   |       | @Alex-omega      |
 | server-file_api_manager | 文件API管理器 | W   |     |      | IG🟨   |       | @cxykevin      |
 | server-file_manager     | 文件资源管理器  | F   |     |      | IG🟨  |       | @cxykevin      |
-| server-message_manager  | 消息管理器    | W   |     |      | TD🟥   |       |       |
-| server-group_manager    | 群组管理器    | W   |     |      | TD🟥   |       |       |
+| server-message_manager  | 消息管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      |
+| server-group_manager    | 群组管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      |
 | server-ldg_manager      | 用户管理器    | W   |     |      | IG🟨  |       | @Elipese568     |
 | server-access_manager   | 鉴权管理器    | W   |     |      | TD🟥   |       |       |
 > 注：
@@ -40,6 +40,7 @@
 > 	- py: Python
 > 	- cs: C#
 > 	- js: Java Script
+>   - go: GoLang
 > 	- cf: configure（依赖已有软件，仅编写配置）
 > - 开发状态说明：
 > 	- TD🟥: Todo（未开始）
