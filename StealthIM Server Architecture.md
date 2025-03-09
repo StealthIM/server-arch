@@ -11,8 +11,8 @@
 
 | 模块名称                    | 中文名      | 层级  | 语言  | 是否现有 | 开发状态 | 客户端访问 | 模块开发者 |
 | ----------------------- | -------- | --- | --- | ---- | ---- | ----- | ----- |
-| server-master           | 中控       | M   |     |      | TD🟥   |       |       |
-| server-db_gateway       | 数据库网关    | G   | cf  |     | TD🟥   |       |       |
+| server-master           | 中控       | M   | cs  |     | IG🟨   |       | @Elipese568  |
+| server-db_gateway       | 数据库网关    | G   | go  |     | IT🟪   |       | @cxykevin   |
 | server-status_watchdog  | 状态监视     | A   |     |      | TD🟥   | ✅     |       |
 | server-service_gateway  | 业务网关     | A   | cf  | ✅    | TD🟥   | ✅     |       |
 | server-mysql            | MySQL    | D   | cf  | ✅    | TD🟥   |       |       |
@@ -20,11 +20,11 @@
 | server-rocketmq         | RocketMQ | D   | cf  | ✅    | TD🟥   |       |       |
 | server-service_system   | 集成业务系统   | S   |     |      | TD🟥   |       |       |
 | server-user_system      | 用户管理系统   | S   |     |      | ID🟧   |       | @Alex-omega      |
-| server-file_api_manager | 文件API管理器 | W   |     |      | IG🟨   |       | @cxykevin      |
-| server-file_manager     | 文件资源管理器  | F   |     |      | IG🟨  |       | @cxykevin      |
+| server-file_api_manager | 文件API管理器 | W   |     |      | ID🟧   |       | @cxykevin      |
+| server-file_manager     | 文件资源管理器  | F   |     |      | ID🟧  |       | @cxykevin      |
 | server-message_manager  | 消息管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      |
 | server-group_manager    | 群组管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      |
-| server-ldg_manager      | 用户管理器    | W   |     |      | IG🟨  |       | @Elipese568     |
+| server-ldg_manager      | 用户管理器    | W   |     |      | ID🟧  |       | @Elipese568     |
 | server-access_manager   | 鉴权管理器    | W   |     |      | TD🟥   |       |       |
 > 注：
 > - 空格表明未定
