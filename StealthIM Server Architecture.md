@@ -20,8 +20,8 @@
 | server-rocketmq         | RocketMQ | D   | cf  | ✅    | TD🟥   |       |       |
 | server-service_system   | 集成业务系统   | S   |     |      | TD🟥   |       |       |
 | server-user_system      | 用户管理系统   | S   |     |      | ID🟧   |       | @Alex-omega      |
-| server-file_api_manager | 文件API管理器 | W   |     |      | ID🟧   |       | @cxykevin      |
-| server-file_manager     | 文件资源管理器  | F   |     |      | ID🟧  |       | @cxykevin      |
+| server-file_api_manager | 文件API管理器 | W   | go  |      | ID🟧   |       | @cxykevin      |
+| server-file_manager     | 文件资源管理器  | F   | py  |      | IG🟨  |       | @cxykevin      |
 | server-message_manager  | 消息管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      |
 | server-group_manager    | 群组管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      |
 | server-ldg_manager      | 用户管理器    | W   |     |      | ID🟧  |       | @Elipese568     |
