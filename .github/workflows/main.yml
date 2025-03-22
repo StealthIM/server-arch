@@ -8,12 +8,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: drawio CLI
-        # You may pin to the exact commit or the version.
-        # uses: severgroup-tt/actions-drawio-cli@757714b9f66bbdf0b3d05d3e5941016ad4b27861
-        uses: severgroup-tt/actions-drawio-cli@v1.0.0
+        uses: Burnett01/actions-drawio@1.2
         with:
           source: arch.drawio
-          destination: arch.svg
+          destination: arch.png
+          format: png
       - name: Upload
         run: |
           git config --global user.name "github-actions[bot]"
