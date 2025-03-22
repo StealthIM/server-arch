@@ -1,6 +1,6 @@
 ## 总体架构设计
 
-![arch image](https://raw.githubusercontent.com/cxykevin/server-arch/refs/heads/main/arch.svg)
+![arch image](https://raw.githubusercontent.com/StealthIM/server-arch/refs/heads/main/arch.svg)
 
 ---
 
