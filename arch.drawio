@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KZx8DbALYqMHypFApeTW-1" value="Arch" style="swimlane;whiteSpace=wrap;html=1;rounded=0;swimlaneLine=1;separatorColor=light-dark(#000000,#FFFFFF);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;gradientColor=none;swimlaneFillColor=light-dark(transparent,#FFFFFF);" vertex="1" parent="1">
+        <mxCell id="KZx8DbALYqMHypFApeTW-1" value="Arch" style="swimlane;whiteSpace=wrap;html=1;rounded=0;swimlaneLine=1;separatorColor=light-dark(#000000,#FFFFFF);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;gradientColor=none;swimlaneFillColor=light-dark(#000000,#FFFFFF);" vertex="1" parent="1">
           <mxGeometry x="85.00000000000006" y="30" width="1000" height="706" as="geometry" />
         </mxCell>
         <mxCell id="xcTkNIUp__dZLRKaqVBh-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;项目架构图&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;" parent="KZx8DbALYqMHypFApeTW-1" vertex="1">
