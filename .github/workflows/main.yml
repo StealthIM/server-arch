@@ -8,7 +8,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4.2.2
       - name: drawio CLI
-        uses: Burnett01/actions-drawio@1.2
+        uses: severgroup-tt/actions-drawio-cli@v1.0.0
         with:
           source: arch.drawio
           destination: arch.png
