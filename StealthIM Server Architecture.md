@@ -1,6 +1,6 @@
 ## 总体架构设计
 
-![Pasted image 20250222010901.png](https://github.com/StealthIM/server-arch/blob/main/Pasted%20image%2020250222010901.png?raw=true)
+<iframe frameborder="0" style="width:100%;height:623px;" src="https://app.diagrams.net/?tags=%7B%7D&title=arch.drawio&transparent=1&dark=auto#Uhttps%3A%2F%2Fraw.githubusercontent.com%2FStealthIM%2Fserver-arch%2Fmain%2Farch.drawio" allowtransparency="true"></iframe>
 
 ---
 
