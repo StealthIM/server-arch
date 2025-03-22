@@ -4,8 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="xcTkNIUp__dZLRKaqVBh-3" value="" style="group;fontSize=20;" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="130.00000000000006" y="104" width="910" height="620" as="geometry" />
+        <mxCell id="KZx8DbALYqMHypFApeTW-1" value="Arch" style="swimlane;whiteSpace=wrap;html=1;rounded=0;swimlaneLine=1;separatorColor=light-dark(#000000,#FFFFFF);movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;gradientColor=none;swimlaneFillColor=light-dark(transparent,#FFFFFF);" vertex="1" parent="1">
+          <mxGeometry x="85.00000000000006" y="30" width="1000" height="706" as="geometry" />
+        </mxCell>
+        <mxCell id="xcTkNIUp__dZLRKaqVBh-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;项目架构图&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;" parent="KZx8DbALYqMHypFApeTW-1" vertex="1">
+          <mxGeometry x="39.99999999999994" y="30" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xcTkNIUp__dZLRKaqVBh-3" value="" style="group;fontSize=20;" parent="KZx8DbALYqMHypFApeTW-1" vertex="1" connectable="0">
+          <mxGeometry x="50" y="56" width="910" height="620" as="geometry" />
         </mxCell>
         <mxCell id="Ldzz9GKDvCy5cxYpggfk-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="xcTkNIUp__dZLRKaqVBh-3" source="Ldzz9GKDvCy5cxYpggfk-1" target="Ldzz9GKDvCy5cxYpggfk-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -97,12 +103,6 @@
         </mxCell>
         <mxCell id="Ldzz9GKDvCy5cxYpggfk-16" value="Access System&lt;div&gt;鉴权系统&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="xcTkNIUp__dZLRKaqVBh-3" vertex="1">
           <mxGeometry x="712.9194366197182" y="507.49999999999994" width="145.00056338028168" height="72.5" as="geometry" />
-        </mxCell>
-        <mxCell id="KZx8DbALYqMHypFApeTW-1" value="Arch" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="xcTkNIUp__dZLRKaqVBh-3">
-          <mxGeometry x="-40" y="-50" width="950" height="670" as="geometry" />
-        </mxCell>
-        <mxCell id="xcTkNIUp__dZLRKaqVBh-1" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;项目架构图&lt;/h1&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontSize=20;" parent="KZx8DbALYqMHypFApeTW-1" vertex="1">
-          <mxGeometry x="39.99999999999994" y="30" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
