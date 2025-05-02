@@ -14,7 +14,7 @@
 | ----------------------- | -------- | --- | --- | ---- | ---- | ----- | ----- | - | - |
 | server-master           | 中控       | M   | cs  |     | ID🟧   |       |  | |  |
 | server-db_gateway       | 数据库网关    | G   | go  |     | CD🟦   |       | @cxykevin | | [StealthIMDB](https://github.com/StealthIM/StealthIMDB) |
-| server-status_watchdog  | 状态监视     | A   | py  |      | ID🟧   | ✅     | @Keniis0712 | | |
+| server-status_watchdog  | 状态监视     | A   | py  |      | ID🟧   | ✅     |  | | |
 | server-service_gateway  | 业务网关     | A   | cf  | ✅    | TD🟥   | ✅     |  | | |
 | server-mysql            | MySQL    | D   | cf  | ✅    | TD🟥   |       |       | | |
 | server-redis            | Redis    | D   | cf  | ✅    | TD🟥   |       |       | | |
