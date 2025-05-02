@@ -12,20 +12,21 @@
 
 | 模块名称                    | 中文名      | 层级  | 语言  | 是否现有 | 开发状态 | 客户端访问 | 模块开发者 | 备注 | 仓库 |
 | ----------------------- | -------- | --- | --- | ---- | ---- | ----- | ----- | - | - |
-| server-master           | 中控       | M   | cs  |     | IG🟨   |       | @Elipese568  | | [StealthIM.Master](https://github.com/StealthIM/StealthIM.Master) |
-| server-db_gateway       | 数据库网关    | G   | go  |     | IT🟪   |       | @cxykevin   | | [StealthIMDB](https://github.com/StealthIM/StealthIMDB) |
-| server-status_watchdog  | 状态监视     | A   |     |      | TD🟥   | ✅     |       | | |
-| server-service_gateway  | 业务网关     | A   | cf  | ✅    | TD🟥   | ✅     |       | | |
+| server-master           | 中控       | M   | cs  |     | ID🟧   |       |  | |  |
+| server-db_gateway       | 数据库网关    | G   | go  |     | CD🟦   |       | @cxykevin | | [StealthIMDB](https://github.com/StealthIM/StealthIMDB) |
+| server-status_watchdog  | 状态监视     | A   |     |      | TD🟥   | ✅     | @Keniis0712 | | |
+| server-service_gateway  | 业务网关     | A   | cf  | ✅    | TD🟥   | ✅     |  | | |
 | server-mysql            | MySQL    | D   | cf  | ✅    | TD🟥   |       |       | | |
 | server-redis            | Redis    | D   | cf  | ✅    | TD🟥   |       |       | | |
 | server-rocketmq         | RocketMQ | D   | cf  | ✅    | TD🟥   |       |       | 性能原因暂时保留不使用 | |
 | server-service_system   | 集成业务系统   | S   |     |      | TD🟥   |       |       | | |
 | server-user_system      | 用户管理系统   | S   |     |      | ID🟧   |       | @Alex-omega      | | |
-| server-file_api_manager | 文件API管理器 | W   | go  |      | ID🟧   |       | @cxykevin      | | |
-| server-file_manager     | 文件资源管理器  | F   | py  |      | IT🟪  |       | @cxykevin      | | [StealthIMFileStorage](https://github.com/StealthIM/StealthIMFileStorage) |
-| server-message_manager  | 消息管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      | | |
-| server-group_manager    | 群组管理器    | W   | go  |      | ID🟧   |       | @Keniis0712      | | |
-| server-ldg_manager      | 用户管理器    | W   |     |      | ID🟧  |       | @Elipese568     | | |
+| server-file_api_manager | 文件API管理器 | W   | go  |      | IT🟪   |       | @cxykevin      | | [StealthIMFileAPI](https://github.com/StealthIM/StealthIMFileAPI) |
+| server-file_manager     | 文件资源管理器  | F   | py  |      | CD🟦  |       | @cxykevin      | | [StealthIMFileStorage](https://github.com/StealthIM/StealthIMFileStorage) |
+| server-message_manager  | 消息管理器    | W   | go  |      | TD🟥   |       |  | | |
+| server-group_manager    | 群组管理器    | W   | go  |      | TD🟥   |       |  | | |
+| server-session_manager  | 会话管理器    | W   | go  |      | IT🟪  |       | @cxykevin     | | [StealthIMSession](https://github.com/StealthIM/Session) |
+| server-ldg_manager      | 用户管理器    | W   | go  |      | ID🟧  |       | @cxykevin | | |
 | server-access_manager   | 鉴权管理器    | W   |     |      | TD🟥   |       |       | | |
 > 注：
 > - 空格表明未定
@@ -40,7 +41,7 @@
 > - 语言缩写说明：
 > 	- py: Python
 > 	- cs: C#
-> 	- js: Java Script
+> 	- js: JavaScript
 >   - go: GoLang
 > 	- cf: configure（依赖已有软件，仅编写配置）
 > - 开发状态说明：
