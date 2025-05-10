@@ -25,8 +25,8 @@
 | server-file_manager     | 文件资源管理器  | F   | py  |      | CD🟦  |       | @cxykevin      | | [StealthIMFileStorage](https://github.com/StealthIM/StealthIMFileStorage) |
 | server-message_manager  | 消息管理器    | W   | go  |      | TD🟥   |       |  | | |
 | server-group_manager    | 群组管理器    | W   | go  |      | TD🟥   |       |  | | |
-| server-session_manager  | 会话管理器    | W   | go  |      | IT🟪  |       | @cxykevin     | | [StealthIMSession](https://github.com/StealthIM/Session) |
-| server-ldg_manager      | 用户管理器    | W   | go  |      | ID🟧  |       | @cxykevin | | |
+| server-session_manager  | 会话管理器    | W   | go  |      | CD🟦  |       | @cxykevin     | | [StealthIMSession](https://github.com/StealthIM/Session) |
+| server-ldg_manager      | 用户管理器    | W   | go  |      | IT🟪  |       | @cxykevin | | |
 | server-access_manager   | 鉴权管理器    | W   |     |      | TD🟥   |       |       | | |
 > 注：
 > - 空格表明未定
